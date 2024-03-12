@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding:0px;
+   
+}
+.navbar{
+    background-color: #30723F;
+    /* height:56px;
+    width:1536px; */
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap; 
+    justify-content:space-between; 
+    align-items: center;
+    font-family: "Alegreya Sans", sans-serif; 
+    font-size:18px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#search{
+    height:33px;
+    width:35px;
+    margin-left:20px;
+}
+#logo{ 
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content:center;
+}
+#profile{
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+}
+#ban{
+    /* background-image: url('OIG3.jpg'); */
+    background-repeat:no-repeat;
+    width: 100%;
+    height:100%;
+    background-size: cover;
+    /* background-position: center; */
+}
+/* .banner p{
+    color:black;
+    z-index:10;
+} */
+.banner {
+    position: relative; /* Set the container to relative */
+    width: 100%; /* Adjust width as needed */
+    height: 100%; /* Adjust height as needed */
+  }
+  
+  .banner p {
+    position: absolute; /* Position the text absolutely */
+    color: white; /* Adjust text color for better contrast */
+    /* bottom: 10px; /* Adjust position of text from bottom */
+    /* left: 10px; Adjust position of text from left  */
+    font-size: 16px; /* Adjust font size */
+    top:10px;
+    /* margin:10px; */
+    text-align:center;
+    justify-content: center;
+  }
+  
